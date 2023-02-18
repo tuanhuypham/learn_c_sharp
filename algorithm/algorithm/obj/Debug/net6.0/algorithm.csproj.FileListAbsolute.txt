@@ -1,0 +1,15 @@
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\bin\Debug\net6.0\algorithm.exe
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\bin\Debug\net6.0\algorithm.deps.json
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\bin\Debug\net6.0\algorithm.runtimeconfig.json
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\bin\Debug\net6.0\algorithm.dll
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\bin\Debug\net6.0\algorithm.pdb
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.csproj.AssemblyReference.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.AssemblyInfoInputs.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.AssemblyInfo.cs
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.csproj.CoreCompileInputs.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.dll
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\refint\algorithm.dll
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.pdb
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\algorithm.genruntimeconfig.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\algorithm\algorithm\obj\Debug\net6.0\ref\algorithm.dll
