@@ -1,0 +1,21 @@
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\bin\Release\net6.0-windows\Hellow world.exe
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\bin\Release\net6.0-windows\Hellow world.deps.json
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\bin\Release\net6.0-windows\Hellow world.runtimeconfig.json
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\bin\Release\net6.0-windows\Hellow world.dll
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\bin\Release\net6.0-windows\Hellow world.pdb
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.csproj.AssemblyReference.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\MainWindow.g.cs
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\App.g.cs
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world_MarkupCompile.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world_MarkupCompile.lref
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\MainWindow.baml
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.g.resources
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.AssemblyInfoInputs.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.AssemblyInfo.cs
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.csproj.CoreCompileInputs.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.dll
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\refint\Hellow world.dll
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.pdb
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\Hellow world.genruntimeconfig.cache
+D:\OneDrive\Hoc tap\learn_c_sharp\Hello world\Hellow world\obj\Release\net6.0-windows\ref\Hellow world.dll

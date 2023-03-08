@@ -1,0 +1,14 @@
+﻿<Window x:Class="Hellow_world.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hellow_world"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="Hello, World!" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="24" Margin="0,105,0,0"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="486,238,0,0" VerticalAlignment="Top" Padding="50px 15px" Click="Button_exit" Background="#FFDEC8AE"/>
+        <Button Content="Click me" HorizontalAlignment="Left" Margin="240,238,0,0" VerticalAlignment="Top" Padding="50px 15px" RenderTransformOrigin="1.665,0.603" Click="Button_Click" Background="#FFDEC8AE" />
+    </Grid>
+</Window>

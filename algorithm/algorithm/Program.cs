@@ -1,37 +1,15 @@
-﻿using System;
+﻿
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace homeWorld
+namespace Todo
 {
     public class main
     {
-        class aplication
-        {
-            public void print()
-            {
-                Console.WriteLine("hello world");
-            }
-        }
-        class bignumber
-        {
-            public void find()
-            {
-                int[] arr = { 12, -4, 10, 4, 2, 71, -2, -6 };
 
-                int max = arr[0];
-
-                for (int i = 0; i < arr.Length; i++)
-                {
-                    if (max < arr[i])
-
-                        max = arr[i];
-                }
-                Console.WriteLine("\n\n So lon nhat trong mang la: {0}", max);
-            }
-        }
         class toDoitem
         {
             public Boolean isCheck;
@@ -46,19 +24,29 @@ namespace homeWorld
             public toDoitem()
             {
                 this.isCheck = false;
-                this.job = "";
+                this.job = " ";
             }
             public void show()
             {
-                string check  = (isCheck) ? "[x]" : "[] ";
-                Console.WriteLine(check+job); 
+                string check = (isCheck) ? "[x]" : "[] ";
+                if(job == "")
+                {
+                    Console.Write(" not data user\n");
+                }
+                else
+                {
+                    if(this.job != ""){
+
+                    }
+                    Console.WriteLine(check + job);
+                }
             }
         }
         static void Main(string[] args)
         {
             int sttFunction = 0;
             string content = "";
-            
+
             List<toDoitem> _list = new List<toDoitem>();
             do
             {
@@ -79,7 +67,8 @@ namespace homeWorld
                     case 1:
                         Console.Write("Nhap vao cong viec : ");
                         content = Console.ReadLine();
-                        _list.Add(new toDoitem(false, content));
+                        _list.Add(new toDoitem(false, content));                     
+                        //neu ko nhap gi thi chuyen gi se xay ra  
                         break;
                     case 2:
                         Console.WriteLine("");
@@ -95,33 +84,54 @@ namespace homeWorld
                         break;
                     case 3:
                         Console.Write("nhap vi tri danh dau : ");
-                         int toggle = Convert.ToInt32(Console.ReadLine());
-                        _list[toggle].isCheck = true;
+                        int toggle = Convert.ToInt32(Console.ReadLine()); //neu nhapc 999999 thi chuyen gi se xay ra
+                        if (toggle > 7 & toggle < 0)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            _list[toggle].isCheck = true;
+                        }
                         break;
                     case 4:
                         Console.Write("nhap vi tri bo danh dau: ");
-                         toggle = Convert.ToInt32(Console.ReadLine());
-                        _list[toggle].isCheck = false;
+                        toggle = Convert.ToInt32(Console.ReadLine()); //neu nhapc 999999 thi chuyen gi se xay ra
+                        if (toggle > 7 & toggle < 0)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            _list[toggle].isCheck = false;
+                        }
                         break;
                     case 5:
                         Console.WriteLine("nhap vao vi tri can xoa : ");
-                        int remove = Convert.ToInt32(Console.ReadLine());
-                        _list.RemoveAt(remove);
+                        int remove = Convert.ToInt32(Console.ReadLine()); //neu nhapc 999999 thi chuyen gi se xay ra
+                        if(remove > 7 & remove < 0)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            _list.RemoveAt(remove);
+                        }
                         break;
                     case 6:
-                        Console.Write("Nhap vao vi tri can thay doi :");
-                        int index = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Nhap vao vi tri can sua :");
+                        int index = Convert.ToInt32(Console.ReadLine()); //neu nhapc 999999 thi chuyen gi se xay ra  
                         Console.Write("noi dung can sua :");
-                        content = Console.ReadLine();
+                        content = Console.ReadLine(); //ko nhap gi chuyen gi se xay ra
                         _list[index].job = content;
                         break;
                     case 7:
-                        Console.WriteLine("Nhap vao vi tri can tim : ");
+                        Console.WriteLine("Nhap vao vi tri can tim : "); //di tim no dung gi do thi hop ly hon
                         toggle = Convert.ToInt32(Console.ReadLine());
 
-                        for (int i = 0; i < _list.Count;i++)
+                        for (int i = 0; i < _list.Count; i++)
                         {
-                            if(i == toggle)
+                            if (i == toggle)
                             {
                                 Console.WriteLine("");
                                 Console.Write("cong viec can tim");
@@ -134,13 +144,17 @@ namespace homeWorld
                         }
                         break;
                     default:
-                        if(sttFunction == 0)
+                        if (sttFunction == 0)
                         {
                             Console.WriteLine("cam on ban da su dung tool nay !!!");
                         }
                         break;
                 }
-            } while (sttFunction != 0 );
+            } while (sttFunction != 0);
+            //BigNumber.BigNumber_1 a = new BigNumber.BigNumber_1();
+            //a.find(); 
+            //Print a = new Print();
+            //a.Display();
         }
     }
 }
