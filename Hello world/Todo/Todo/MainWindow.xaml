@@ -7,12 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1000" Width="700">
     <Grid RenderTransformOrigin="0.397,0.439">
-        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Todo" VerticalAlignment="Top" FontFamily="Arial" FontSize="40" RenderTransformOrigin="-1.176,0.133"/>
-        <TextBox Name="txtInput" HorizontalAlignment="Left" Margin="415,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="248" TextChanged="TextBox_TextChanged" RenderTransformOrigin="-0.167,-1.278" Height="28"/>
-        <TextBlock HorizontalAlignment="Left" Margin="415,53,0,0" TextWrapping="Wrap" Text="Hãy nhâp vào công việc" VerticalAlignment="Top"/>
-        <StackPanel x:Name="myStackPanel" Orientation="Vertical">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="677*"/>
+            <ColumnDefinition Width="23*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="322,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run FontWeight="Bold" Text="ToDo"/></TextBlock>
+        <StackPanel Grid.ColumnSpan="2">
+            <TextBox x:Name="txtinput" HorizontalAlignment="Left" Margin="406,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" TextChanged="TextBox_TextChanged" Height="32"/>
+            <TextBlock x:Name="errorTextBlock" Foreground="Red" Margin="406,0,0,0" Visibility="Collapsed"/>
         </StackPanel>
-        <Button x:Name="save" HorizontalAlignment="Left" Margin="554,117,0,0" VerticalAlignment="Top" Width="109" Click="Button_Click" Background="#FF007BFF" Height="32" Content="Save"/>
-        <Button x:Name="show" Margin="554,168,37,782"  Width="109"  Click="Button_Click_1" Background="#FF007BFF" Height="32" Content="Show"/>
+        <TextBlock HorizontalAlignment="Left" Margin="407,42,0,0" TextWrapping="Wrap" Text="Input Job" VerticalAlignment="Top"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="406,119,0,0" VerticalAlignment="Top" Click="Button_Click" Width="81"/>
+        <ItemsControl x:Name="itemList" Margin="10,10,-10,-10" Grid.ColumnSpan="2">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding}"/>
+                        <CheckBox Margin="50,0,0,0" />
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
     </Grid>
 </Window>
+ 
